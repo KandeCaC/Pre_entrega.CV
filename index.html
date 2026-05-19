@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pequeños Creadores</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <header>
+    <h1>Mundo de Juegos</h1>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon"></label>
+    <div class="overlay"></div>
+    <nav class="menu">
+      <a href="#actividades">Actividades</a>
+      <a href="#galeria">Galería</a>
+      <a href="#mapa">Ubicación</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+
+
+
+  <!-- Actividades -->
+  <section id="actividades">
+
+    <h2>Actividades Didácticas</h2>
+
+    <div class="actividad">
+      <img src="imagenes/niños_pintando.png" alt="Niños pintando" class="actividad-img">
+      <h3>Colorea, juega y aprende los colores</h3>
+    </div>
+
+    <div class="actividad">
+      <img src="imagenes/niños_rompecabezas.png" alt="Rompecabezas" class="actividad-img">
+      <h3>Rompecabezas divertidos</h3>
+    </div>
+
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria">
+
+    <h2>Nuestra Galería</h2>
+
+    <div class="galeria">
+      <img src="imagenes/niños_jugando.png" alt="Niños jugando" class="galeria-img">
+      <h3>Jugamos, saltamos y aprendemos juntos al aire libre</h3>
+    </div>
+
+    <div class="galeria">
+      <img src="imagenes/taller_creativo.png" alt="Taller creativo" class="galeria-img">
+      <h3>Niños disfrutan pintando, recortando y creando juntos</h3>
+    </div>
+
+    <div class="galeria">
+      <img src="imagenes/aprendemos_juntos.png" alt="Aprendemos juntos" class="galeria-img">
+      <h3>Aprendemos los numeros, figuras y dibujos en el aula</h3>
+    </div>
+
+    <div class="carrusel">
+      <div class="slides">
+    <img src="imagenes/animado1.png" alt="Investigando">
+    <img src="imagenes/animado2.png" alt="Creando">
+    <img src="imagenes/animado3.png" alt="Aprendiendo">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Mapa -->
+  <div id="mapa-contacto">
+  <section id="mapa">
+
+    <h2>Encuéntranos</h2>
+    <p>"Pequeños Creadores"</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1451.7082836115264!2d-71.2896511288112!3d-40.133935978152195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96110c079ff0968f%3A0x7125ec5ab6fdde1e!2sMolina%20Campos%20183%2C%20Q8370%20San%20Mart%C3%ADn%20de%20los%20Andes%2C%20Neuqu%C3%A9n!5e1!3m2!1ses!2sar!4v1779072292963!5m2!1ses!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <form action="https://formspree.io/f/xeedolbr" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje"></textarea>
+
+      <p class="form-success">¡Gracias por tu mensaje! Te responderemos pronto</p>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  </div>
+
+  <!-- Redes -->
+  <section id="redes">
+    <h2>Síguenos en redes</h2>
+    <div class="social-icons">
+      <a href="https://facebook.com/pequeñoscreadores" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com/pequeñoscreadores" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/pequeñoscreadores" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>Copyright © 2026 Pequeños Creadores Inc. - juegos educativos para niños. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
