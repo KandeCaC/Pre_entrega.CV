@@ -11,3 +11,5 @@ El proyecto está desarrollado únicamente con **HTML y CSS**.
 
 ## 💡 Objetivo
 Crear un espacio digital interactivo y visualmente armónico para que los niños aprendan jugando.
+
+Candelaria Villanueva 
